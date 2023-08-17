@@ -1,0 +1,19 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(34, 139, 230) 0%,
+    rgba(10, 63, 142) 100%
+  );
+  backdrop-filter: blur(307.5px);
+
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}

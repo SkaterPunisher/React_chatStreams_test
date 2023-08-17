@@ -1,0 +1,16 @@
+.wrapperChat {
+  background-color: var(--white);
+  border-radius: 16px;
+  // border: 1px solid var(--white);
+  padding: 35px 20px;
+
+  height: 400px;
+
+  box-shadow: 0px 2px 31px 13px rgba(10, 63, 142, 0.08);
+
+  overflow-y: scroll;
+
+  .loading {
+    align-content: end;
+  }
+}

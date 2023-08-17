@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -12,4 +13,18 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Manrope', sans-serif !important;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+
+:root {
+  --white: #ffffff;
+  --blue: #007afe;
+  --gray: rgba(34, 118, 245, 0.2);
 }
